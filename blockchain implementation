@@ -1,0 +1,8 @@
+This is the blockchain part of our solution.
+We built a smart contract called TouristID that gives every tourist a secure digital identity.
+
+The contract stores four things: the tourist’s name, a hashed ID, their country, and the visit end date — all linked to their unique blockchain wallet address.
+
+Tourists register using the issueID function, and their details are stored permanently on blockchain. Later, using getMyTouristID, the tourist or authorities can instantly verify the identity.
+
+This prevents fake IDs, ensures tamper-proof records, and even if physical documents are lost, the tourist’s verified digital ID is always safe and accessible.
